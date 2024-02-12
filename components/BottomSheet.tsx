@@ -12,7 +12,7 @@ import { Ionicons } from "@expo/vector-icons";
 export type Ref = BottomSheetModal;
 
 const BottomSheet = forwardRef<Ref>((props, ref) => {
-  const snapPoints = useMemo(() => ["65%"], []);
+  const snapPoints = useMemo(() => ["50%"], []);
   const renderBackdrop = useCallback(
     (props: any) => (
       <BottomSheetBackdrop

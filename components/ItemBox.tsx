@@ -15,7 +15,7 @@ const ItemBox = () => {
 
         <TouchableOpacity style={styles.item}>
           <Ionicons name="fast-food-outline" size={20} color={Colors.medium} />
-          <Text style={{ flex: 1 }}>Hygien rating</Text>
+          <Text style={{ flex: 1 }}>Hygiene rating</Text>
           <Ionicons name="chevron-forward" size={22} color={Colors.primary} />
         </TouchableOpacity>
 
